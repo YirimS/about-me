@@ -32,7 +32,7 @@ if (whatDistrict === 'yes' || whatDistrict === 'y'){
   alert('you are pretty good at this');
 }
 
-let live = prompt('Have I lived ther my whole life?').toLowerCase();
+let live = prompt('Have I lived there my whole life?').toLowerCase();
 if (live === 'yes' || live === 'y'){
   console.log('I have and I am proud of it');
   alert('I have and I am proud of it');
