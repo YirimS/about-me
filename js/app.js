@@ -2,7 +2,7 @@
 
 let username = prompt('What is your name?');
 
-alert('Welcome' + username + '! Please answer the following five questions yes or no');
+alert('Welcome ' + username + '! Please answer the following five questions yes or no');
 
 // Question One
 function q1(){
@@ -16,11 +16,15 @@ function q1(){
 
 q1();
 
-let writeMusic = prompt('Do I do Hip-Hop Music?').toLowerCase();
-if (writeMusic === 'yes' || writeMusic === 'y'){
-  console.log('You got it, Hip-Hop is my life');
-  alert('That is Correct, well done');
+function q2(){
+  let writeMusic = prompt('Do I do Hip-Hop Music?').toLowerCase();
+  if (writeMusic === 'yes' || writeMusic === 'y'){
+    console.log('You got it, Hip-Hop is my life');
+    alert('That is Correct, well done');
+  }
 }
+
+q2();
 
 
 
@@ -42,11 +46,3 @@ if (live === 'yes' || live === 'y'){
   console.log('I have and I am proud of it');
   alert('I have and I am proud of it');
 }
-
-
-
-
-
-
-
-
