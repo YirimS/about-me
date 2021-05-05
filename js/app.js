@@ -38,12 +38,15 @@ function q3(){
 
 q3();
 
-
-let whatDistrict = prompt('Do I live in the Central District?').toLowerCase();
-if (whatDistrict === 'yes' || whatDistrict === 'y'){
-  console.log('you are pretty good at this');
-  alert('you are pretty good at this');
+function q4(){
+  let whatDistrict = prompt('Do I live in the Central District?').toLowerCase();
+  if (whatDistrict === 'yes' || whatDistrict === 'y'){
+    console.log('you are pretty good at this');
+    alert('you are pretty good at this');
+  }
 }
+
+q4();
 
 let live = prompt('Have I lived there my whole life?').toLowerCase();
 if (live === 'yes' || live === 'y'){
