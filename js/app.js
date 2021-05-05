@@ -4,12 +4,17 @@ let username = prompt('What is your name?');
 
 alert('Welcome' + username + '! Please answer the following five questions yes or no');
 
-let doYouDoMusic = prompt('Do I do Music?').toLowerCase();
-if (doYouDoMusic === 'yes' || doYouDoMusic === 'y'){
-  console.log('That is Correct, good job!');
-  alert('That is Correct, good job!');
+// Question One
+function q1(){
+  let doYouDoMusic = prompt('Do I do Music?').toLowerCase();
+  if (doYouDoMusic === 'yes' || doYouDoMusic === 'y'){
+    console.log('That is Correct, good job!');
+    alert('That is Correct, good job!');
 
+  }
 }
+
+q1();
 
 let writeMusic = prompt('Do I do Hip-Hop Music?').toLowerCase();
 if (writeMusic === 'yes' || writeMusic === 'y'){
