@@ -48,8 +48,12 @@ function q4(){
 
 q4();
 
-let live = prompt('Have I lived there my whole life?').toLowerCase();
-if (live === 'yes' || live === 'y'){
-  console.log('I have and I am proud of it');
-  alert('I have and I am proud of it');
+function q5(){
+  let live = prompt('Have I lived there my whole life?').toLowerCase();
+  if (live === 'yes' || live === 'y'){
+    console.log('I have and I am proud of it');
+    alert('I have and I am proud of it');
+  }
 }
+
+q5();
