@@ -27,12 +27,16 @@ function q2(){
 q2();
 
 
-
-let whereDoILive = prompt('Do I live in Seattle').toLowerCase();
-if (whereDoILive === 'yes' || whereDoILive === 'y'){
-  console.log('right on! I do live in Seattle');
-  alert('right on! I do live in Seattle');
+// Question Three
+function q3(){
+  let whereDoILive = prompt('Do I live in Seattle').toLowerCase();
+  if (whereDoILive === 'yes' || whereDoILive === 'y'){
+    console.log('right on! I do live in Seattle');
+    alert('right on! I do live in Seattle');
+  }
 }
+
+q3();
 
 
 let whatDistrict = prompt('Do I live in the Central District?').toLowerCase();
