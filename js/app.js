@@ -145,3 +145,5 @@ while (q7attempts && !answeredCorrectly) {
   console.log(`the answer is ${answerArray}`);
 
 }
+
+
