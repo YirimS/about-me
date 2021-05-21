@@ -142,7 +142,7 @@ while (q7attempts && !answeredCorrectly) {
     //on last attempt tell user they are done and give them all the answers
     q7attempts--;
   }
-  console.log(`the answer is ${answerArray}`);
+  //console.log(`the answer is ${answerArray}`);
 
 }
 
